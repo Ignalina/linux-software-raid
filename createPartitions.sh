@@ -1,10 +1,14 @@
 # Creds to  Saša Stamenković umpirsky https://gist.github.com/umpirsky
 # Creds to  Steve Sybesma https://gist.github.com/ssybesma
-# Script below is totally based on above mentioned users work. Some cleanup has been added.
+# Script below is totally based on above mentioned users work. 
+# Some cleanup has been added by rickard@ignalina.dk
 #
 #
-# Run as root , worked on kubuntu 22.10
-# Boot using ubuntu 22.10 LIVE and run the script below (drives called nvme0 , nvme1,nvme2) to create the following 3 partiotions
+# Note: Disks called nvme0 , nvme1,nvme2
+#
+# Boot using ubuntu 22.10 LIVE and run the script as root. 
+# Three Partions will be created 
+#  
 # /dev/nvme0n1p1 EFI
 # /dev/md0 Linux swap
 # /dev/md1 Linux OS
